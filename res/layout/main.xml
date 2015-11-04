@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="noti 뜰 때 보이는 글" />
+
+    <EditText
+        android:id="@+id/tickerText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ticker Text" >
+    </EditText> -->
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="noti 들어가면 보이는 내용들" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/contentTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="메모 이름" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/contentText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="메모 내용" >
+    </EditText>
+ 
+
+    <Button
+        android:id="@+id/registerNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="등록" >
+    </Button>
+
+</LinearLayout>
